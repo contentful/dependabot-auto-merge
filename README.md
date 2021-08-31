@@ -1,5 +1,10 @@
 # dependabot-auto-merge
 
+
+⚠️ **Warning** ⚠️ This project is not intended for use outside of Contentful and as such it is not supported by Contentful.
+
+
+
 ## Usage
 
 To reference the action, create a workflow in your project in `.github/workflows/` e.g.
