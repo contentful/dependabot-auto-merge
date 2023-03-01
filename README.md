@@ -1,9 +1,8 @@
 # dependabot-auto-merge
 
+⚠️ **Warning** ⚠️ This action is now deprecated. You should use [contentful/github-auto-merge](https://github.com/contentful/github-auto-merge) instead.
 
 ⚠️ **Warning** ⚠️ This project is not intended for use outside of Contentful and as such it is not supported by Contentful.
-
-
 
 ## Usage
 
@@ -14,8 +13,7 @@ To reference the action, create a workflow in your project in `.github/workflows
 ```yaml
 name: "dependabot approve-and-request-merge"
 
-on:
-  pull_request_target
+on: pull_request_target
 
 jobs:
   worker:
